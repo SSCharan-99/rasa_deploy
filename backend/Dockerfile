@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . /app
 COPY ./data /app/data
 
-
+RUN rasa run actions
 
 VOLUME /app
 VOLUME /app/data
